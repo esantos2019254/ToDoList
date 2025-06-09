@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "682f844da33654057efd9217"
+  },
+  "name": "Elmer",
+  "surname": "Santos",
+  "username": "esantos",
+  "email": "esantos@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$+yGjer5+5EY+DGwQzJUCpA$cHULsLwrejxN2lJjFZ4OOU++qk4hw51awIa3yPMbg4o",
+  "profilePicture": "Pastel Marketing Strategy Mind Map Brainstorm-1749066835823.png",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-22T20:08:45.169Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T20:38:09.406Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682fc8047292f9ae9a2a5d5d"
+  },
+  "name": "admin",
+  "surname": "admin",
+  "username": "admin",
+  "email": "admin@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$/df2K+yakjhhyTxe1nzSvw$uLYp0zajF/rbuHtK3Ya8bANHRrFBfxjPzzwg5n6X3Ys",
+  "profilePicture": null,
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-23T00:57:40.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-23T00:57:40.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68309ebbf54aaaddcec4538b"
+  },
+  "name": "Pedro",
+  "surname": "AriasSss",
+  "username": "pariasSss",
+  "email": "parias@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$v2iwy7t2ccKntzBoVP2Nfg$ohrAy5Qt/KcnZiIkiFQkY4zD12DY5ZVBkEPMgGC4iXk",
+  "profilePicture": "Mi imagen de ChatGPT-1749428100307.png",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-23T16:13:47.109Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-09T00:15:01.552Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6840771f963c5944a87cf0fc"
+  },
+  "name": "Rodri",
+  "surname": "García",
+  "username": "rgarcia",
+  "email": "rgarcia@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$2sXujGxQROC7WomtQlpc4A$iVtkGkTSo2AIi2Q5T8/fK53Qsu3ufVdYukOSgtHtPx4",
+  "profilePicture": "Mi imagen de ChatGPT-1749058511657.png",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-06-04T16:41:03.067Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T17:35:11.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6843a2376f9f5f975c17d669"
+  },
+  "name": "Juan",
+  "surname": "Perz",
+  "username": "jperez",
+  "email": "jperez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$WnXx529zg8Xkk7NTQvybuA$jhSnHBD2mV6LLCbnmBOf6J4C9f7oBb8bTglbhDukKVA",
+  "profilePicture": "progra1-1749262903490.jpg",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-06-07T02:21:43.860Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T02:21:43.860Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6843abfb6f9f5f975c17d671"
+  },
+  "name": "pablo",
+  "surname": "pablo",
+  "username": "prueba",
+  "email": "p@gmail.co",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$0p421NQKLQD1yGc15WeV3A$h7EAZoAXOdL6Y7WfsNZip8dZLjydvK0frD2VgHyRBrA",
+  "profilePicture": "progra1-1749265402643.jpg",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-06-07T03:03:23.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T03:03:23.083Z"
+  }
+}]

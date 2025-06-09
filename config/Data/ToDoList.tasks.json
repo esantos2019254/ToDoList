@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "682fc766c3b2c54dca7a3cec"
+  },
+  "title": "Almacenadora",
+  "description": "Se realizo una almacenadora",
+  "date": {
+    "$date": "2025-05-25T00:00:00.000Z"
+  },
+  "img": "Mi imagen de ChatGPT-1747961702660.png",
+  "user": {
+    "$oid": "682f844da33654057efd9217"
+  },
+  "status": "pending",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-23T00:55:02.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-23T00:55:02.723Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682fcdfcbe1d1b0e7b9de057"
+  },
+  "title": "Ir al supermercado",
+  "description": "Comprar todo lo ncesario",
+  "date": {
+    "$date": "2025-06-12T00:00:00.000Z"
+  },
+  "img": "progra2-1747963387993.jpg",
+  "user": {
+    "$oid": "682fcd70be1d1b0e7b9de052"
+  },
+  "status": "pending",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-23T01:23:08.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-23T01:39:02.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682fce32be1d1b0e7b9de05a"
+  },
+  "title": "Proyecto final",
+  "description": "Tengo que terminar el proyecto final",
+  "date": {
+    "$date": "2025-05-29T00:00:00.000Z"
+  },
+  "img": "progra3-1747963442183.png",
+  "user": {
+    "$oid": "682fcd70be1d1b0e7b9de052"
+  },
+  "status": "pending",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-05-23T01:24:02.212Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-23T01:24:02.212Z"
+  }
+}]
