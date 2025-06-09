@@ -27,7 +27,10 @@ const middlewares = (app) => {
 }
 
 const routes = (app) => {
-    app.use('/uploads/profile-pictures', express.static(path.join(__dirname, '../src/public/uploads/profile-pictures')));
+    app.use('/uploads/profile-pictures', cors({
+        origin: ['https://todolist-4d8ec.web.app', 'https://todolist-4d8ec.firebaseapp.com'],
+        credentials: true
+    }), express.static(path.join(__dirname, '../src/public/uploads/profile-pictures')));
     app.use("/toDoList/v1/auth", authRoutes);
     app.use("/toDoList/v1/users", userRoutes);
     app.use("/toDoList/v1/tasks", taskRoutes);
