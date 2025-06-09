@@ -16,7 +16,11 @@ const __dirname = path.dirname(__filename);
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
-    app.use(cors());
+    app.use(cors({
+        origin: ['https://todolist-4d8ec.web.app', 'https://todolist-4d8ec.firebaseapp.com'],
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        credentials: true
+    }));
     app.use(express.json());
     app.use(helmet());
     app.use(morgan('dev'));
